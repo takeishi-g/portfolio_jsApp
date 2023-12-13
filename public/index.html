@@ -357,6 +357,7 @@
 
 
         // GASへデータ投稿
+        const drow_num = document.getElementById("drow_num")
         for (let i = 0; i <= dataList.length; i++){
           fetch(api_url, {
             method: "post",
